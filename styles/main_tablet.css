@@ -1,0 +1,49 @@
+main{
+width 720px;
+}
+.mainSize{
+  max-width: 720px;
+    margin: 0 auto;
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.grid-containerEvents{
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 20% [col-start]);
+  grid-template-rows: 200px repeat(2, 20% [row-start]) 300px repeat(2, 20% [row-start]);
+  grid-template-areas:
+
+  "textFact textFact textFact textFact"
+  "imageFact imageFact imageFact imageFact"
+  "imageFact imageFact imageFact imageFact"
+  "textFact textFact textFact textFact"
+  "imageFact imageFact imageFact imageFact"
+  "imageFact imageFact imageFact imageFact";
+  grid-column-gap:15px;
+  grid-row-gap: 15px;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.grid-containerAbout{
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 20% [col-start]);
+  grid-template-rows: 230px repeat(4, 20% [row-start]) 320px;
+  grid-template-areas:
+
+  "textFact textFact textFact textFact"
+  "imageFact imageFact imageFact imageFact"
+  "imageFact imageFact imageFact imageFact"
+  "imageFact imageFact imageFact imageFact"
+  "imageFact imageFact imageFact imageFact"
+  "textFact textFact textFact textFact";
+  grid-column-gap:15px;
+  grid-row-gap: 15px;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}

@@ -1,0 +1,17 @@
+﻿
+#btnLang {
+    margin: 10px;
+    background-color: black;
+    color:white;
+    float:right;
+}
+
+#review {
+    width: 80%;
+    margin: auto;
+}
+
+    #review img {
+        width: 100%;
+    }
+
